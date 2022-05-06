@@ -31,7 +31,7 @@ else:
 puntoMedio = int(puntoMedio)
  
 # x axis values
-x = [i for i in range(-1, 7)]
+x = [i for i in range( round(puntoMedio-10), round(puntoMedio+10))]
 
 # corresponding y axis values
 y = [((a*i**2) + (b*i) + (c))  for i in x ]
