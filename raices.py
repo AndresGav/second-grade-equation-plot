@@ -42,9 +42,9 @@ print(y)
 plt.plot(x, y)
  
 # naming the x axis
-plt.xlabel('x - axis')
+plt.xlabel('x')
 # naming the y axis
-plt.ylabel('y - axis')
+plt.ylabel('y')
  
 # giving a title to my graph
 plt.title('Grafica de funcion de segundo grado')
